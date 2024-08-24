@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Playwrite+US+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Cinecritic</a>
+        <nav>
+            <a href="">Home</a>
+            <div class="search">
+                <label for="search" style="margin-right: 10px;"><i class="fa-solid fa-magnifying-glass"></i></label>
+                <input type="search" name="" id="search" placeholder="Search ur fav movie">
+            </div>
+            <a href="">My List</a>
+            <div class="btn"><i class="fa-solid fa-bell"></i></div>
+            <div class="btn"><i class="fa-solid fa-user"></i></div>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="movie_container">
+            <div class="movie_wrapper">
+                <div class="movie_box mySwiper">
+                    <div class="movie_content swiper-wrapper">
+                        <div class="movie_slide swiper-slide" id="first">
+                            <h3>UNCHARTED</h3>
+
+                            <p>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure 
+                            hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by 
+                            Ferdinand Magellan and lost 500 years ago by the House of Moncada.
+                            Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure 
+                            hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by 
+                            Ferdinand Magellan and lost 500 years ago by the House of Moncada.</p>
+                            <div class="movie_review">
+                                <h3>IMDb : 6,3</h3>
+                                <h3>1 h 56 m</h3>
+                                <h3>10+</h3>
+                            </div>
+                            <div class="btn_ctn">
+                                <div class="btn">Read More</div>
+                                <div class="btn">Add List</div>
+                            </div>
+                        </div>
+                        <div class="movie_slide swiper-slide" id="second">
+                            <h3>UNCHARTED</h3>
+
+                            <p>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure 
+                            hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by 
+                            Ferdinand Magellan and lost 500 years ago by the House of Moncada.
+                            Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure 
+                            hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by 
+                            Ferdinand Magellan and lost 500 years ago by the House of Moncada.</p>
+                            <div class="movie_review">
+                                <h3>IMDb : 6,3</h3>
+                                <h3>1 h 56 m</h3>
+                                <h3>10+</h3>
+                            </div>
+                            <div class="btn_ctn">
+                                <div class="btn">Read More</div>
+                                <div class="btn">Add List</div>
+                            </div>
+                        </div>
+                        <div class="movie_slide swiper-slide" id="third">
+                            <h3>UNCHARTED</h3>
+
+                            <p>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure 
+                            hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by 
+                            Ferdinand Magellan and lost 500 years ago by the House of Moncada.
+                            Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure 
+                            hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by 
+                            Ferdinand Magellan and lost 500 years ago by the House of Moncada.</p>
+                            <div class="movie_review">
+                                <h3>IMDb : 6,3</h3>
+                                <h3>1 h 56 m</h3>
+                                <h3>10+</h3>
+                            </div>
+                            <div class="btn_ctn">
+                                <div class="btn">Read More</div>
+                                <div class="btn">Add List</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn_content">
+                <div class="btn_prev btn_next"><i class="fa-solid fa-chevron-right"></i></div>
+                <div class="btn_prev btn_back"><i class="fa-solid fa-chevron-left"></i></div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
